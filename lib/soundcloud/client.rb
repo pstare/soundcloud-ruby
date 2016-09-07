@@ -3,7 +3,7 @@ module SoundCloud
     include HTTMultiParty
     USER_AGENT            = "SoundCloud Ruby Wrapper #{VERSION}"
     CLIENT_ID_PARAM_NAME  = :client_id
-    API_SUBHOST           = 'api'
+    API_SUBHOST           = 'api-v2'
     AUTHORIZE_PATH        = '/connect'
     TOKEN_PATH            = '/oauth2/token'
     DEFAULT_OPTIONS       = {
